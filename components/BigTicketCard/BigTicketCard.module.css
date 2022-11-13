@@ -1,0 +1,21 @@
+.wrapper {
+   @apply relative w-full shadow-2xl rounded-2xl overflow-hidden text-gray-800
+}
+
+.ticket {
+  @apply relative w-full rounded-2xl overflow-hidden grid grid-cols-[1fr_190px] bg-white text-gray-800
+}
+
+.right {
+  @apply border-l text-3xl font-bold flex items-center justify-center
+}
+
+.ticketGroup {
+  @apply overflow-hidden
+}
+
+.divider {
+  top: 1px;
+  left: 20px;
+  @apply w-full border-b border-dashed border-blue-400 h-1 relative z-10
+}

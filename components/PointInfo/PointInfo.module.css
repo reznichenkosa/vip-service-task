@@ -1,0 +1,15 @@
+.wrapper {
+  @apply flex flex-col w-28
+}
+
+.time {
+  @apply text-2xl font-bold mb-2
+}
+
+.city {
+  @apply text-sm font-medium text-gray-600 first-letter:capitalize
+}
+
+.date {
+  @apply text-sm font-light
+}

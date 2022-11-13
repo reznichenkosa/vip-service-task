@@ -1,0 +1,11 @@
+.wrapper {
+   @apply relative w-full shadow-2xl rounded-2xl overflow-hidden text-gray-800
+}
+
+.ticket {
+  @apply relative w-full rounded-2xl overflow-hidden grid grid-cols-[1fr_190px] h-52 bg-white text-gray-800
+}
+
+.right {
+  @apply border-l text-3xl font-bold flex items-center justify-center
+}

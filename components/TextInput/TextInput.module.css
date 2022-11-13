@@ -1,0 +1,11 @@
+.wrapper {
+  @apply relative
+}
+
+.input {
+  @apply w-full font-bold text-sm rounded-xl invalid:border-2 invalid:border-red-600 text-gray-800 px-3 py-3 disabled:bg-gray-300 transition ease-in-out focus:outline-none bg-white
+}
+
+.label {
+  @apply text-xs text-white absolute -top-4
+}

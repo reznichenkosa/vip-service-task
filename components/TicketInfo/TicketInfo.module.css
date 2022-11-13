@@ -1,0 +1,40 @@
+.ticket {
+  @apply relative w-full rounded-2xl overflow-hidden grid grid-cols-[130px_1fr] gap-6 h-52 bg-white text-gray-800 pr-6
+}
+
+.type {
+  @apply absolute bg-blue-400 text-xs font-bold text-white px-5 py-2 rounded-br-2xl
+}
+
+.left {
+  @apply flex items-center justify-center flex-col gap-2 text-lg
+}
+
+.logo {
+  @apply w-10 h-10 object-cover
+}
+
+.right {
+  @apply flex items-center justify-center flex-col gap-6
+}
+
+.info {
+  @apply flex w-full justify-between
+}
+
+
+.timeTags {
+  @apply flex items-center justify-start gap-2 w-full
+}
+
+
+
+
+
+.infoBaggage {
+  @apply flex items-baseline gap-2
+}
+
+.infoBaggage > img {
+  @apply object-contain w-5
+}
