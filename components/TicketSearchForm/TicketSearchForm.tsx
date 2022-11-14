@@ -15,11 +15,10 @@ const initialState: IFormData = {
   endDate: "",
 };
 
-const currentTime = new Date();
-
 const TicketSearchForm: FC<TicketSearchFormProps> = () => {
   const [formData, setFormData] = useState<IFormData>(initialState);
   const router = useRouter();
+  const currentTime = new Date();
 
   const formHandler = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
